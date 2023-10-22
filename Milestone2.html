@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<title>MY PROFILE</title>
+<style>
+h1
+{
+width=140px;
+text-align:center;
+font-family:papyrus;
+font-size:75px; 
+}
+h2
+{
+border-color:10px with outset black;
+font-size:25px;
+font-style:italic;
+}
+h3
+{display:flex;
+}
+p{
+border:10px;
+font-size:25px;
+text-allign:left;
+}
+body{
+font-family:MsMincho;
+background:#ffffff;
+font-size:20px;
+}
+img
+{
+border:12px dotted rgb(0,0,0);
+border-radius:50%;
+}
+.circle-image{
+diplay:inline-block;
+border-radius:70%;
+}
+.container{
+display:flex;
+align-items:center;
+column-gap:5px;
+background-color:rgb(135,206,235);
+}
+img{
+max-width:90%;
+max-height:90%;
+}
+.text{
+background-color:rgb(135,206,235);
+font-size:20px;
+width=200px;
+padding-left:80px;
+}
+table,th,td
+{
+border:1px solid black;
+}
+h4
+{
+text-align:right;
+}
+<script>
+//smooth scrolling to section when clicking on navigation links 
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+anchor.addEventListener('click',function(e){
+e.preventDefault();
+const targetId=this.getAttribute("href").substring(1);
+const targetElement=document.getElementById(targetId);
+if(targetElement)
+{
+window.scrollTo(
+{
+top:targetElement.offsetTop,
+behavior:'smooth'
+});
+}
+});
+});
+</script>
+</style>
+</head>
+<body>
+<div class="container">
+<div class="image">
+<span class="circle-image">
+<img class="rounded-corners"src="C:/Users/ELCOT/Pictures/pro.jpg"height=250px;width=300px;>
+</div>
+<div class="text">
+<h1><b>SINDA BANU M</b></h1>
+</div>
+</div>
+<h2>CONTACT DETAILS</h2>
+Send mail as <a href="mailto:sindabanum@gmail.com">mail</a>,<br>
+<h2> EDUCATIONAL QUALIFICATION </h2>
+<table style="width:70%">
+<tr>
+<th> Year</th>
+<th><center>Course Details</center></th>
+</tr>
+<tr>
+<td>2021-2024</td>
+<td>&nbsp&nbsp&nbsp&nbsp&ensp;<b>Bachelor of Science (Computer Science)</b><br>&nbsp&nbsp&nbsp&nbsp&ensp; Percentage:92% (Upto 4th sem)<br>&nbsp&nbsp&nbsp&nbsp&ensp; Annai Hjira Women's College-Tirunelveli 627005</td>
+</tr>
+<tr>
+<td>2020-2021</td>
+<td>&nbsp&nbsp&nbsp&nbsp&ensp;<b> Higher Secondary Certificate</b><br>&nbsp&nbsp&nbsp&nbsp&ensp;Percentage:91%<br>&nbsp&ensp;Girls Higher Secondary School -Tirunelveli 627453</td>
+</tr>
+<tr>
+<td>2018-2019</td>
+<td>&nbsp&nbsp&nbsp&nbsp&ensp;<b> Higher Secondary Certificate</b><br>&nbsp&nbsp&nbsp&nbsp&ensp;Percentage:90%<br>&nbsp&ensp;Girls Higher Secondary School -Tirunelveli 627453</td>
+</tr>
+</table>
+<h2> INTERNSHIP/PRESENTATION/WORKSHOP</h2>
+<ul>
+<li>Completed four days Intership on "Python using Machine Learning conducted by ATS</li>
+<li>Presentation on "Computer Networks" at<b>DAWN'SIM22</b>held in Francis Xavier Engineerig College(April 2022)</li>
+<li>Participated in one day workshop on"Greenfoot"conducted by Holy cross college</li>
+<li>Participated in one day workshop on "Filmoro"conducted by Accent Techno soft</li>
+</ul>
+<h2>EXTRA CURRICULAR ACTIVITIES</h2>
+<ul>
+<li>Participated in <b>"ORU NALL ORU PUTHAGAM"</b></li>
+<li>Participae in Debugging at Dawn Symposium held in FX college</li>
+</ul>
+<h2> ACHIEVEMENTS</h2>
+<ul>
+<li>Secured 3rd in Disrict Level Essay writing in Tamil At Government of Tamil Development Department2023</li>
+<li>Secured 1st in Tamil Essay writing At Porunai Nellai Book Fair</li>
+<li>Secured 2nd in Disrict Level Essay writing in Tamil Conducted by Sadakathulla Appa College2022</li>
+<li>Secured 3rd in Disrict Level Essay writing in Tamil at Government of Tamil Development Department2022</li>
+<li>Secured <b>"Certification of Merit"</b> for Rank Holder of Hsc Awaded by TamilNadu Muslim Graduates Association</li>
+</ul>
+<h2>HOBBIES</h2>
+<ul>
+<li> Art from waste</li>
+<li>Drawing</li>
+<li> Reading Books</li>
+</ul>
+<h2>PERSONAL STRENGTH</h2>
+<ul>
+<li>Ambivert</li>
+<li>Trusthworthyness</li>
+</ul>
+<h2> LANGUAGE KNOWN</h2>
+<input type="checkbox"name="read"value="Hindi"checked>
+<label for="Read:Hindi">Read:Hindi</label><br>
+<input type="checkbox"name="Read&Speak"value="English,Tamil"checked>
+<label for="Read&Speak":English,Tamil">Read&Speak:English,Tamil</label>
+<h3>DATE:</h3>
+<h3>PLACE:</h3>
+<h4>Signature</h4>
+<h4>(M SINDA BANU)</h4>
+</body>
+</html>
